@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    cursor: none;
+    font-family: "Juventus Fans";
+    }
+    
+
+body
+ {
+   
+    cursor: none;
+    background-color:#000000;
+    align-items: center;
+    align-content: center;
+ }
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .header {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  
+  #background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      background: url('IMAGENES/mcgregor.jpg') no-repeat;
+      background-size: cover;
+  }
+    .menu {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        
+        }
+    #menu {
+            display: none;
+            
+    }
+
+    .menu-icono {
+            width: 200px;
+            
+    }
+    .menu label {
+            cursor: pointer;
+            
+    }
+    h2 {
+      font-size: 120px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+ 
+.sports{
+  width: 100%;
+  height: 100%;;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+ 
+}
+.sports img{
+width: 250px;
+height:  200px;
+padding: 20px 10px;
+
+}
+h3{
+   color:#ffc800;
+}
+h2{
+  color:rgb(227, 251, 252);
+ 
+}
+.sports-content{
+  
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.MMA,
+.FUTBOL,
+.BASKET,
+.BOX {
+    flex: 1; /* Hace que los elementos ocupen el mismo espacio dentro del contenedor */
+  /* Puedes ajustar este valor según sea necesario */
+    text-align: center; /* Alinea el contenido al centro si es necesario */
+}
+.btn-1{
+  size: 100px;
+  background: #ffc800;
+  color: #030f1d;
+  padding: 11px 35px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.btn-1:hover{
+  background-color:#000000;
+  color: rgb(227, 251, 252);
+}
+    .header-content h1{
+        font-size: 100px;
+        line-height: 80px;
+        color: #f9fafc84;
+        text-transform: uppercase;
+        margin-bottom: 35px;  
+        text-align: center;
+    }
+    .header-content p{
+        font-size: 16x;
+        color: #c5c5c5;
+        padding: 0 250px;
+        margin-bottom: 25px;
+    }
+    .carousel {
+
+        position: relative;
+        width: 100%;
+        height: 600px; /* Altura deseada del carrusel */
+        overflow: hidden;
+      }
+      
+      .carousel img {
+        width: 100%;
+        height: auto;
+       
+      }
+      
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        cursor: none;
+        transition: background 0.3s ease;
+      }
+      
+      .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+      }
+      
+      .prev {
+        border-style: hidden;
+        background: #ffffff00;
+        left: 0;
+      }
+      
+      .next {
+        border-style: hidden;
+        background: #ffffff00;
+        right: 0;
+      }
+      
+      .circle-cursor {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: width 0.3s, height 0.3s;
+        pointer-events: none; /* Para que el elemento no interfiera con los eventos del mouse  */
+      }
+     
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+.sport-item {
+    position: relative;
+    width: calc(25% - 20px); /* Ajuste el ancho según sea necesario */
+    box-sizing: border-box;
+}
+
+.image-button {
+    position: relative;
+    display: block;
+}
+
+.image-button img {
+    display: block;
+    width: 300px;
+    height:  250px;
+    transition: transform 0.3s ease;
+}
+
+.image-button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height:  250px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button .text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-button:hover img {
+    transform: scale(1.05);
+}
+
+.image-button:hover .overlay {
+    opacity: 1;
+}
+
+h3 {
+    text-align: center;
+}
+
+.espiritu{
+        background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url('IMAGENES/mcgregor.jpg'); 
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+    }
+    .espiritu-content {
+      text-align: center;
+  }
+  .espiritu-content h2 {
+      font-size: 55px;
+      line-height: 70px;
+      color: #F9FAFC;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+  }
+  .espiritu-content h3 {
+      font-size: 30px;
+      line-height: 70px;
+      color: #F9FAFC;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+  }
+  .espiritu-content p {
+      font-size: 16px;
+      color: #C5C5C5;
+      margin-bottom: 50px;
+      padding: 0 100px;
+  }
+  .espiritu-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+  }
+  .espiritu-1,
+  .espiritu-2,
+  .espiritu-3{
+      padding: 0 100px;
+   }
+   .espiritu-1 img,
+  .espiritu-2 img,
+  .espiritu-3 img{
+      width: 100px;
+      
+  }
+  .espiritu-1 img{
+     padding-bottom: 10px;
+  }
+  .espiritu-2 img{
+    padding-bottom: 45px;
+ }
+ .espiritu-3 img{
+  padding-bottom: 32px;
+}
+
+.general {
+  display: flex;
+}
+
+.general-1 {
+width: 50%;
+padding: 100px 250px 100px 100px;
+background-color: #ffc800;
+}
+.general-1
+.btn-1 {
+  color: #F9FAFC;
+  background: #000000;
+  
+  }
+  .general-1 .btn-1:hover{
+    background:#ffc800;
+    color: rgb(0, 0, 0);
+  }
+.general-2 {
+padding: 100px 250px 100px 100px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+color:#F9FAFC;
+}
+.general-3 {
+padding: 100px 250px 100px 100px;
+background-image:url(IMAGENES\2be85195-b6b7-41cb-a556-feb0fc7df84a.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+color:#F9FAFC;
+}
+
+.general h2 {
+  font-size: 55px;
+  line-height: 70px;
+
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.general-2 h2,
+.general-3 h2{
+  color: #ffc800;
+}
+.general P{
+  font-size: 16px;
+  margin: 25px 0 45px 0;
+}

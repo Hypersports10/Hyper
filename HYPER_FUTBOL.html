@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HYPER_FUTBOL.css">
+</head>
+<body>
+    <script src="HYPER.js"></script>   
+    <header class="header">
+        <div class="nav-icon" id="nav-icon">
+            ☰
+        </div>
+        <nav class="nav-bar" id="nav-bar">
+            <ul>
+                <li><a href="HYPER.html">Inicio</a></li>
+                
+                <li><a href="HYPER_MMA.html">MMA</a></li>
+                <li><a href="HYPER_FUTBOL.html">Fútbol</a></li>
+                <li><a href="HYPER_BASQUET.html">Basket</a></li>
+                <li><a href="HYPER_BOX.html">Box</a></li>
+                <li><a href="https://www.paypal.com/webapps/shoppingcart?mfid=1716331940106_f581792227af0&flowlogging_id=f581792227af0#/checkout/shoppingCart">Carrito de Compra</a></li>
+            </ul>
+        </nav>
+        <style>
+            .nav-icon {
+                top: 100px;
+                position: absolute;
+                text-align: center;
+                font-size: 24px;
+                cursor: none;
+                color: white;
+                
+            }
+
+            nav {
+                width: 20%;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+                position: absolute;
+                top: 150px;
+                left: 50%; 
+                transform: translateX(-50%); 
+                right: 0;
+                display: none;
+                border-radius: 15px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            nav ul li {
+                padding: 15px;
+                text-align: left;
+            }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                display: block;
+            }
+
+            nav ul li a:hover {
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            .nav-visible {
+                display: block;
+            }
+
+            .nav-hidden {
+                display: none;
+            }
+        </style>
+        <script>
+            function toggleNav() {
+                var navbar = document.getElementById('nav-bar');
+                if (navbar.classList.contains('nav-hidden')) {
+                    navbar.classList.remove('nav-hidden');
+                    navbar.classList.add('nav-visible');
+                } else {
+                    navbar.classList.remove('nav-visible');
+                    navbar.classList.add('nav-hidden');
+                }
+            }
+
+            document.getElementById('nav-icon').addEventListener('click', toggleNav);
+        </script>
+        <div class="menu container">
+           <a href="HYPER.html">
+            <label for="menu">
+                <img src="IMAGENES\HYPER.svg" class="menu-icono" alt="hyper">
+            </label>
+          </a>
+        </div>
+        <div class="header-content container">
+            <h1>FUTBOL</h1>
+           
+        </div>
+    </header>
+
+    <section class="sports container">  
+       
+        <div class="sports-content">
+    
+        <div class="mmag">
+            <h3>Tenis Nike Mercurial</h3>
+            <img class="slide" src="IMAGENES/tenisfutbol.webp" alt="Imagen 1">
+            <h3>$2000 MXN</h3>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"class="carrito">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="9PFDNSSJRZBHC" />
+                <input type="hidden" name="currency_code" value="MXN" />
+                <input type="image" src="IMAGENES\botoncarrito.png" border="0" name="submit" title="PayPal es una forma segura y fácil de pagar en línea." alt="Agregar al carrito" />
+                <table>
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on0" value="Talla"/>
+                        Talla
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <select name="os0">
+                          <option value="25">
+                            25
+                          </option>
+                          <option value="26">
+                            26
+                          </option>
+                          <option value="27">
+                            27
+                          </option>
+                          <option value="28">
+                            28
+                          </option>
+                          <option value="29">
+                            29
+                          </option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+              </form>
+        
+        </div>
+            <div class="mmas">
+                <h3>Balon mundial 2022</h3>
+                <img class="slide" src="IMAGENES/balonfutbol.avif" alt="Imagen 2">
+                <h3>$3000 MXN</h3>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"class="carrito">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="8VFFDUYUYKQLN" />
+                    <input type="hidden" name="currency_code" value="MXN" />
+                    <input type="image" src="IMAGENES\botoncarrito.png" border="0" name="submit" title="PayPal es una forma segura y fácil de pagar en línea." alt="Agregar al carrito" />
+                  </form>
+            </div>
+                <div class="mmaptc"> 
+                    <h3>Camisa del Real Madrid</h3>
+                    
+                    <img class="slide" src="IMAGENES/camisafutbol.avif" alt="Imagen 3">
+                    <h3>$1800 MXN</h3>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"class="carrito">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="5PE5SSDLJB5U8" />
+                        <input type="hidden" name="currency_code" value="MXN" />
+                        <input type="image" src="IMAGENES\botoncarrito.png" border="0" name="submit" title="PayPal es una forma segura y fácil de pagar en línea." alt="Agregar al carrito" />
+                        <table>
+                            <tr>
+                              <td>
+                                <input type="hidden" name="on0" value="Talla"/>
+                                Talla
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <select name="os0">
+                                  <option value="M">
+                                    M
+                                  </option>
+                                  <option value="L">
+                                    L
+                                  </option>
+                                  <option value="XL">
+                                    XL
+                                  </option>
+                                </select>
+                              </td>
+                            </tr>
+                          </table>
+                      </form>
+                
+                </div>
+                <div class="mmacpc">
+                    <h3>Paquete de entrenamiento futbol</h3>
+                    <img class="slide" src="IMAGENES/packfutbol.png" alt="Imagen 3">
+                    <h3>6000 MXN</h3>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="carrito">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="GCZZURSRFSYML" />
+                        <input type="hidden" name="currency_code" value="MXN" />
+                        <input type="image" src="IMAGENES\botoncarrito.png" border="0" name="submit" title="PayPal es una forma segura y fácil de pagar en línea." alt="Agregar al carrito" />
+                      </form>
+                </div>
+            </div>
+    </section>
+
+</body>
+</html>

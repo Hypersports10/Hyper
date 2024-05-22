@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    cursor: none;
+    font-family: "Juventus Fans";
+    }
+body
+ {
+    font-family: "Barlow Condensed", sans-serif;
+    cursor: none;
+    background-color:#0f0f0f;
+    align-items: center;
+    align-content: center;
+ }
+
+ .header-content h1 {
+    font-size: 100px;
+    line-height: 80px;
+    color: #f9fafc84;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .header {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+    url(IMAGENES/BOX!.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    }
+    .header {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .menu {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        
+        }
+    #menu {
+            display: none;
+            
+    }
+
+    .menu-icono {
+            width: 200px;
+            
+    }
+    .menu label {
+            cursor: pointer;
+            
+    }
+
+h3{
+    color: rgba(212, 160, 15, 0.877);
+}
+
+.sports img {
+    width: 250px;
+    height: 250px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.sports-content{  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.mmag, .mmas, .mmaptc, .mmacpc {
+    flex: 1;
+    text-align: center;
+}
+
+.btn-1 {
+    size: 100px;
+    background: #ffc800;
+    color: #030f1d;
+    padding: 11px 35px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.circle-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: width 0.3s, height 0.3s;
+    pointer-events: none; /* Para que el elemento no interfiera con los eventos del mouse  */
+  }
+  .carrito input[type="image"]{
+    width: 250px;
+  }
+  
